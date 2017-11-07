@@ -81,7 +81,7 @@ Notes:
   1. Download this project and put it wherever you want.
   2. (Optional) Copy `default.config.yml` to `config.yml` and modify it to your liking.
   3. Create a local directory where Drupal will be installed and configure the path to that directory in `config.yml` (`local_path`, inside `vagrant_synced_folders`).
-  4. Open Terminal, `cd` to this directory (containing the `Vagrantfile` and this README file).
+  4. Open Terminal, `cd` to this directory (the /drupal-vm directory containing this README file, not the directory you just created in step 3).
   5. Type in `vagrant up`, and let Vagrant do its magic.
 
 Once the process is complete, you will have a Drupal codebase available inside the `drupal/` directory of the project.
